@@ -1,0 +1,69 @@
+
+.ProductCard {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.ProductCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff6a00;
+}
+
+.ProductCard_header img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.ProductCard_header img:hover {
+    transform: scale(1.05); /* Efecto de zoom en la imagen */
+}
+
+.ProductCard_body {
+    padding: 1rem;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.ProductCard_body h2 {
+    font-size: 1.5rem;
+    color: #ff6a00;
+    text-shadow: 0 0 5px #ff6a00;
+    margin: 0.5rem 0;
+}
+
+.ProductCard_body p {
+    font-size: 1rem;
+    color: #b3b3b3;
+    margin: 0.3rem 0;
+}
+
+.ProductCard_button {
+    background-color: #ff6a00;
+    color: #121212;
+    border: none;
+    border-radius: 4px;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: auto;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.ProductCard_button:hover {
+    background-color: #ff7f32;
+    box-shadow: 0 0 10px #ff6a00;
+}
