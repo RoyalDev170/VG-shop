@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import classNames from "classnames"
 import css from "./ProductCard.module.css";
+import { Link } from "react-router-dom";
 
-class ProductCard extends Component {
+class CategoryCard extends Component {
     render() {
 
         const {className, product} = this.props;
@@ -16,12 +17,13 @@ class ProductCard extends Component {
                     <p>{product.description}</p>
                     <p>{product.price}</p>
                 </div>
-                <button className={css.ProductCard_button}>Añadir al Carrito</button>
+                <Link to={product.route} className={css.ProductCard_button}>
+                    <button>Ir a la Pagina</button>
+                </Link>
             </div>
         )
     }
 
 }
 
-export default ProductCard;
-
+export default CategoryCard;

@@ -1,12 +1,61 @@
+/* Encabezado */
+.header {
+    display: flex;
+    justify-content: space-between; /* Espaciar los elementos */
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1f1f1f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para definición */
+}
 
+.logo {
+    font-size: 1.8rem;
+    color: #ff6a00;
+    text-shadow: 0 0 5px #ff6a00;
+    margin-right: 2rem; /* Espacio con el menú */
+}
+
+.nav {
+    flex: 1; /* Deja que el menú ocupe el espacio necesario */
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centra los links */
+    gap: 2rem; /* Espacio uniforme entre los elementos */
+    margin: 0;
+    padding: 0;
+}
+
+.navList li a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.navList li a:hover {
+    color: #ff6a00;
+}
+
+.cartIcon {
+    font-size: 1.5rem;
+    margin-left: 2rem; /* Espacio con el menú */
+    color: #f5f5f5;
+}
+
+.about-us {
+    background-color: #121212; 
+    color: #f5f5f5;
+    font-family: 'Orbitron', sans-serif;
+}
 .about-us-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    background-color: #121212; 
-    color: #f5f5f5;
-    font-family: 'Orbitron', sans-serif;
+
 }
 
 .about-us-title {
@@ -39,49 +88,13 @@
     color: #cfcfcf;
 }
 
-.ProductList {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-top: 2rem;
-}
-
-.ProductList_card {
-    background-color: #1f1f1f; 
-    border: 1px solid #333;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 250px;
-}
-
-.ProductList_card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 15px #ff6a00; 
-}
-
-.ProductList_card img {
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    width: 100%;
-}
-
-.ProductList_card .product-info {
-    padding: 1rem;
-    color: #e0e0e0;
-}
-
-.ProductList_card h3 {
-    font-size: 1.3rem;
-    color: #ff6a00;
-    text-shadow: 0 0 5px #ff6a00;
-}
-
-.ProductList_card p {
-    font-size: 0.9rem;
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #1f1f1f;
     color: #b3b3b3;
-}
+    font-size: 0.9rem;
+  }
 
 @keyframes rotateBg {
     0% { transform: rotate(0deg); }

@@ -1,0 +1,145 @@
+/* Estilo general */
+.landing-page {
+    background-color: #121212;
+    color: #f5f5f5;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  /* Encabezado */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1f1f1f;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    color: #ff6a00;
+    text-shadow: 0 0 5px #ff6a00;
+  }
+  
+  .nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navList li a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navList li a:hover {
+    color: #ff6a00;
+  }
+  
+  .cartIcon {
+    font-size: 1.5rem;
+  }
+  
+  /* Banner */
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background: #333;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .bannerText {
+    text-shadow: 0 0 10px #ff6a00;
+  }
+  
+  /* Sección de tarjetas */
+  .product-section {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+    color: #ff6a00;
+    text-shadow: 0 0 8px #ff6a00, 0 0 15px #ff6a00;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #1f1f1f;
+    color: #b3b3b3;
+    font-size: 0.9rem;
+  }
+
+.ProductList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.ProductList_card {
+    background-color: #1f1f1f; 
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 250px;
+}
+
+.ProductList_card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff6a00; 
+}
+
+.ProductList_card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+}
+
+.ProductList_card .product-info {
+    padding: 1rem;
+    color: #e0e0e0;
+}
+
+.ProductList_card h3 {
+    font-size: 1.3rem;
+    color: #ff6a00;
+    text-shadow: 0 0 5px #ff6a00;
+}
+
+.ProductList_card p {
+    font-size: 0.9rem;
+    color: #b3b3b3;
+}
+
+@keyframes rotateBg {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
