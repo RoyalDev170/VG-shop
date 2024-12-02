@@ -146,58 +146,58 @@ export const dlcs = [
 export const irl = [
     {
         id: 1,
-        name: 'Juego A',
-        price: "Precio: $1000 - $2500",
-        description: 'Encuentra los mejores títulos para todas las plataformas. ¡No te pierdas las últimas novedades y promociones exclusivas!',
-        image: 'https://via.placeholder.com/300x200'
+        name: 'Funko Pop: Kiriko',
+        price: "Precio: $400",
+        description: 'Figura del personaje "Kiriko" de Overwatch 2',
+        image: 'https://http2.mlstatic.com/D_Q_NP_668505-MLA79270691706_092024-O.webp'
     },
     {
         id: 2,
-        name: 'Juego B',
-        price: "Precio: $1000 - $2500",
-        description: 'Encuentra los mejores títulos para todas las plataformas. ¡No te pierdas las últimas novedades y promociones exclusivas!',
-        image: 'https://via.placeholder.com/300x200'
+        name: 'Camiseta de Charmander',
+        price: "Precio: $250",
+        description: 'Camiseta con estampado del Pokemon "Charmander" de la saga de Pokemon',
+        image: 'https://resources.sears.com.mx/medios-plazavip/mkt/6593104ae4cfd_charmander-playera-negra-2-jpg.jpg?scale=500&qlty=75'
     },
     {
         id: 3,
-        name: 'Juego C',
-        price: "Precio: $1000 - $2500",
-        description: 'Encuentra los mejores títulos para todas las plataformas. ¡No te pierdas las últimas novedades y promociones exclusivas!',
-        image: 'https://via.placeholder.com/300x200'
+        name: 'Llavero',
+        price: "Precio: $100",
+        description: 'Llavero con forma de control de PS4',
+        image: 'https://http2.mlstatic.com/D_NQ_NP_798175-MLM69601819648_052023-O.webp'
     },
     {
         id: 4,
-        name: 'Juego D',
-        price: "Precio: $1000 - $2500",
-        description: 'Encuentra los mejores títulos para todas las plataformas. ¡No te pierdas las últimas novedades y promociones exclusivas!',
-        image: 'https://via.placeholder.com/300x200'
+        name: 'Poster',
+        price: "Precio: $550",
+        description: 'Poster decorativo con imagen del control de la Xbox 360',
+        image: 'https://http2.mlstatic.com/D_NQ_NP_759073-MLM71978875446_092023-O.webp'
     },
     {
         id: 5,
-        name: 'Juego E',
-        price: "Precio: $1000 - $2500",
-        description: 'Encuentra los mejores títulos para todas las plataformas. ¡No te pierdas las últimas novedades y promociones exclusivas!',
-        image: 'https://via.placeholder.com/300x200'
+        name: 'Xbox Series S',
+        price: "Precio: $6000",
+        description: 'La consola más compacta de Xbox, diseñada para disfrutar de juegos de nueva generación en 1440p con tiempos de carga ultrarrápidos. Ideal para jugadores digitales.',
+        image: 'https://http2.mlstatic.com/D_Q_NP_677312-MLU72567435636_112023-O.webp'
     },
     {
         id: 6,
-        name: 'Juego F',
-        price: "Precio: $1000 - $2500",
-        description: 'Encuentra los mejores títulos para todas las plataformas. ¡No te pierdas las últimas novedades y promociones exclusivas!',
-        image: 'https://via.placeholder.com/300x200'
+        name: 'Xbox Series X',
+        price: "Precio: $11000",
+        description: 'Potencia sin límites: disfruta de juegos en 4K real y hasta 120 fps con la consola más poderosa de Xbox. Compatible con miles de títulos.',
+        image: 'https://http2.mlstatic.com/D_Q_NP_942133-MLA74651936102_022024-O.webp'
     },
     {
         id: 7,
-        name: 'Juego G',
-        price: "Precio: $1000 - $2500",
-        description: 'Encuentra los mejores títulos para todas las plataformas. ¡No te pierdas las últimas novedades y promociones exclusivas!',
-        image: 'https://via.placeholder.com/300x200'
+        name: 'PlayStation 5',
+        price: "Precio: $12000",
+        description: 'Sumérgete en la nueva era del gaming con gráficos 4K, tiempos de carga rápidos gracias a su SSD y un catálogo exclusivo de juegos épicos.',
+        image: 'https://www.gamezgeek.com/cdn/shop/files/sony-playstation-ps5-disc-version-console-uae-version-gamez-geek-1.png?v=1717104363'
     },
     {
         id: 8,
-        name: 'Juego H',
-        price: "Precio: $1000 - $2500",
-        description: 'Encuentra los mejores títulos para todas las plataformas. ¡No te pierdas las últimas novedades y promociones exclusivas!',
-        image: 'https://via.placeholder.com/300x200'
+        name: 'Nintendo Switch',
+        price: "Precio: $6000",
+        description: 'Diversión portátil y en casa: alterna entre consola portátil y de sobremesa para disfrutar de tus juegos favoritos donde quieras. ¡La versatilidad hecha gaming!',
+        image: 'https://elektra.vtexassets.com/arquivos/ids/8522104-500-auto?v=638672321123130000&width=500&height=auto&aspect=true'
     }
 ]
