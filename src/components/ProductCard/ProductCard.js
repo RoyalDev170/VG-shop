@@ -16,7 +16,28 @@ class ProductCard extends Component {
                     <p>{product.description}</p>
                     <p>{product.price}</p>
                 </div>
-                <button className={css.ProductCard_button}>Añadir al Carrito</button>
+                <button 
+                    className={css.ProductCard_button}
+                    onClick={(e) => {
+                        e.preventDefault();
+
+                        const currentCart = JSON.parse(localStorage.getItem("cart-vgshop")) || [];
+
+                        // currentCart.push(product.id);
+                        // localStorage.setItem("cart-vgshop", JSON.stringify(currentCart));
+
+                        let productTemp = currentCart.find((item) => item.id === product.id);
+                        if (productTemp) {
+                            productTemp.quantity += 1;
+                        } else {
+                            currentCart.push({ id: product.id, quantity: 1 });
+                        }
+
+                        localStorage.setItem("cart-vgshop", JSON.stringify(currentCart));
+                    }}
+                >
+                    Añadir al Carrito
+                </button>
             </div>
         )
     }

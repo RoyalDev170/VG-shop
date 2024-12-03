@@ -11,7 +11,7 @@ import {
 export const routes = [
     {
         path: '/',
-        element: <HomePage/>
+        element: <LandingPage/>
     }, 
     {
         path: '/about',
