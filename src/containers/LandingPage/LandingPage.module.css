@@ -49,19 +49,21 @@
   
   /* Banner */
   .banner {
+    width: 100%;
+    height: 300px; 
+    background-image: url('../../components/images/BannerImage.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerContent {
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    background: #333;
-    color: #fff;
+    color: white; 
     font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  
-  .bannerText {
-    text-shadow: 0 0 10px #ff6a00;
-  }
+}
   
   /* Sección de tarjetas */
   .product-section {

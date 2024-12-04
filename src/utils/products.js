@@ -30,56 +30,56 @@ export const games = [
         name: 'CyberPunk 2077',
         price: 600,
         description: 'Cyberpunk 2077 es un RPG de aventura y acción de mundo abierto ambientado en el futuro sombrío de Night City, una peligrosa megalópolis obsesionada con el poder, el glamur y las incesantes modificaciones corporales.',
-        image: 'https://gaming-cdn.com/images/products/840/616x353/cyberpunk-2077-pc-juego-gog-com-cover.jpg?v=1701271565'
+        image: 'https://i1.sndcdn.com/artworks-3dnBuO3eozsX0LzA-j7Feyw-t500x500.jpg'
     },
     {
         id: 2,
         name: 'StarWars Jedi:Survivor',
         price: 400,
         description: 'La historia de Cal Kestis continúa en STAR WARS Jedi: Survivor™, un juego de acción en tercera persona de proporciones galácticas.',
-        image: 'https://assets.nuuvem.com/image/upload/v1/products/6477981481a113001442b775/sharing_images/ux520sj2kaiojniij0s7.jpg'
+        image: 'https://m.media-amazon.com/images/I/51987udr63L._UXNaN_FMjpg_QL85_.jpg'
     },
     {
         id: 3,
         name: 'Call Of Duty: Black Ops 6',
         price: 1200,
         description: 'Call of Duty®: Black Ops 6 es el Black Ops auténtico, con una campaña cinemática individual, la mejor experiencia Multijugador de su clase y el épico regreso de Zombis por rondas.',
-        image: 'https://a.storyblok.com/f/178900/1200x675/27591d8775/codbo6.jpeg'
+        image: 'https://image.api.playstation.com/vulcan/ap/rnd/202405/2921/29c42f9aec125fe3ad4d21c6021acbf25720f1d21f9fd9bb.png'
     },
     {
         id: 4,
         name: 'Hell Divers 2',
         price: 600,
         description: 'La última línea de ataque de la galaxia. Alístate en los Helldivers y únete a la lucha por la libertad en una galaxia hostil en un juego de disparos en tercera persona rápido, frenético y feroz.',
-        image: 'https://blog.latam.playstation.com/tachyon/sites/3/2024/01/0b631680d472985d5d03113890e73510300583f0.jpeg?resize=1088%2C612&crop_strategy=smart'
+        image: 'https://i1.sndcdn.com/artworks-EkoLk87AIbKUuLjp-sLzn3w-t500x500.jpg'
     },
     {
         id: 5,
         name: 'Sekiro: Shadows Die Twice',
         price: 850,
         description: 'Explora el Japón de la era Sengoku de finales del siglo XVI, un brutal periodo de constante conflicto, mientras te enfrentas a inconmensurables enemigos en un mundo oscuro y tortuoso.',
-        image: 'https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1726158438'
+        image: 'https://i1.sndcdn.com/artworks-000517398114-zacqqv-t500x500.jpg'
     },
     {
         id: 6,
         name: 'Mortal Kombat 1',
         price: 300,
         description: 'Descubre un nuevo universo de Mortal Kombat creado por Liu Kang, Dios del Fuego.',
-        image: 'https://i.blogs.es/67bd59/mortal-kombat-1/1366_2000.jpeg'
+        image: 'https://i1.sndcdn.com/artworks-JOSyZWKUMzwnrtus-GrTRSQ-t500x500.jpg'
     },
     {
         id: 7,
         name: 'Elden Ring',
         price: 800,
         description: 'Álzate, Sinluz, y déjate guiar por la Gracia para blandir el poder del Círculo de Elden',
-        image: 'https://elaltavoz.mx/wp-content/uploads/2024/03/dl3d5ccidn9wlkemhfjr.jpg'
+        image: 'https://m.media-amazon.com/images/I/51HVKSZ5HgL._UXNaN_FMjpg_QL85_.jpg'
     },
     {
         id: 8,
         name: 'Hogwarts Legacy',
         price: 300,
         description: 'Hogwarts Legacy es un RPG inmersivo de acción en mundo abierto. Ahora puedes tomar el control de la acción y ser el centro de tu propia aventura en el mundo mágico.',
-        image: 'https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000014724/72ce0a17215521a167c3da579db4cc48a2f7a52eacc81ad985ba20fd6817fdc2'
+        image: 'https://cdn-images.dzcdn.net/images/cover/c22bf8e09a63e9fdcf18969bee681c9c/500x500.jpg'
     }
 ]
 
@@ -87,59 +87,59 @@ export const games = [
 export const dlcs = [
     {
         id: 9,
-        name: 'DLC A',
+        name: 'CyberPunk 2077: Phantom Liberty',
         price: 500,
-        description: 'Encuentra los mejores títulos para todas las plataformas. ¡No te pierdas las últimas novedades y promociones exclusivas!',
-        image: 'https://via.placeholder.com/300x200'
+        description: 'Adéntrate en una nueva aventura de espionaje y traición en el Distrito de Dogtown, con un emocionante conjunto de misiones y un oscuro trasfondo de intriga política en el universo de Cyberpunk.',
+        image: 'https://cdn.dekudeals.com/images/0270452e13bcc1f7ec36a35d4e98df74371352b8/w500.jpg'
     },
     {
         id: 10,
-        name: 'DLC B',
+        name: 'Elden Ring: Shadow Of Erdtree',
         price: 300,
-        description: 'Encuentra los mejores títulos para todas las plataformas. ¡No te pierdas las últimas novedades y promociones exclusivas!',
-        image: 'https://via.placeholder.com/300x200'
+        description: 'Explora nuevas tierras, enfrenta peligrosos enemigos y descubre secretos ocultos en una expansión que profundiza en la historia y mitología de Elden Ring.',
+        image: 'https://image.api.playstation.com/vulcan/ap/rnd/202402/0817/114b1df9577098209a8bb8e45f4a009e201e9a2fa5113a06.png'
     },
     {
         id: 11,
-        name: 'DLC C',
+        name: 'Mortal Kombat 1: Khaos Reigns',
         price: 150,
-        description: 'Encuentra los mejores títulos para todas las plataformas. ¡No te pierdas las últimas novedades y promociones exclusivas!',
-        image: 'https://via.placeholder.com/300x200'
+        description: 'La lucha alcanza nuevos niveles con "Khaos Reigns", una expansión llena de nuevos luchadores, movimientos mortales y escenarios aterradores. ¡Prepárate para el caos total!',
+        image: 'https://image.api.playstation.com/vulcan/ap/rnd/202408/1600/3197f417165d67e868ccb2e736b9418a6271cae8b4ede7ff.png'
     },
     {
         id: 12,
-        name: 'DLC D',
+        name: 'Halo: Master Chief Collection: Halo Reach',
         price: 400,
-        description: 'Encuentra los mejores títulos para todas las plataformas. ¡No te pierdas las últimas novedades y promociones exclusivas!',
-        image: 'https://via.placeholder.com/300x200'
+        description: 'Revive la épica batalla por Reach con nuevas misiones y la participación de seis nobles Spartans, en este DLC lleno de acción y emoción.',
+        image: 'https://i1.sndcdn.com/artworks-000030160583-tncdu1-t500x500.jpg'
     },
     {
         id: 13,
-        name: 'DLC E',
-        price: 170,
-        description: 'Encuentra los mejores títulos para todas las plataformas. ¡No te pierdas las últimas novedades y promociones exclusivas!',
-        image: 'https://via.placeholder.com/300x200'
+        name: '1000 Overwatch Coins',
+        price: 200,
+        description: 'Moneda virtual del videojuego "Overwatch" - 1000 Monedas',
+        image: 'https://cdn.dekudeals.com/images/651ac8ad1242cc9a85db6ffed0a3f9b706fda88b/w500.jpg'
     },
     {
         id: 14,
-        name: 'DLC F',
-        price: 200,
-        description: 'Encuentra los mejores títulos para todas las plataformas. ¡No te pierdas las últimas novedades y promociones exclusivas!',
-        image: 'https://via.placeholder.com/300x200'
+        name: '2200 Overwatch Coins',
+        price: 400,
+        description: 'Moneda virtual del videojuego "Overwatch" - 2000 + 200 Monedas',
+        image: 'https://cdn.dekudeals.com/images/cee58f97f01b06945f960228a228b4e6b6614e19/w500.jpg'
     },
     {
         id: 15,
-        name: 'DLC G',
+        name: '500 Apex Coins',
         price: 80,
-        description: 'Encuentra los mejores títulos para todas las plataformas. ¡No te pierdas las últimas novedades y promociones exclusivas!',
-        image: 'https://via.placeholder.com/300x200'
+        description: 'Moneda virtual del videojuego "Apex Legends" - 500 Monedas',
+        image: 'https://image.api.playstation.com/vulcan/ap/rnd/202306/0214/cb152248c5278c59bda0a26994ba95a6467d703a7561d2fa.png'
     },
     {
         id: 16,
-        name: 'DLC H',
+        name: '1000 Apex Coins',
         price: 250,
-        description: 'Encuentra los mejores títulos para todas las plataformas. ¡No te pierdas las últimas novedades y promociones exclusivas!',
-        image: 'https://via.placeholder.com/300x200'
+        description: 'Moneda virtual del videojuego "Apex Legends" - 1000 Monedas',
+        image: 'https://image.api.playstation.com/vulcan/ap/rnd/202306/0215/b37219f69a729b1377f16d68d6fee29d1773844e49b2ed36.png'
     }
 ]
 
