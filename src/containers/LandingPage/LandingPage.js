@@ -25,7 +25,7 @@ const LandingPage = () => {
 
                 {/* Banner */}
                 <section className={styles.banner}>
-                    <div className={styles.bannerText}>Banner</div>
+                    <div className={styles.bannerContent}></div>
                 </section>
 
                 {/* Sección de tarjetas */}

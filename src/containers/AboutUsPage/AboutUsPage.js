@@ -22,11 +22,7 @@ const AboutUsPage = () => {
                 </header>
             <div className={styles['about-us-container']}>
                 <h1 className={styles['about-us-title']}>Conocenos</h1>
-                <img
-                    src="https://files.oaiusercontent.com/file-9BZCDBGPbTxF3RbeECCXo8?se=2024-12-04T01%3A17%3A38Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D5686706d-ea82-4fa4-8a79-6e11ab0b9c64.webp&sig=mGV0ihVAP5j4tbc7vaMnVvyy/MUMVz2LUuV9of9Ghxs%3D" 
-                    alt="Our Team"
-                    className={styles['about-us-image']}
-                />
+                <section className={styles['about-us-image']}></section>
                 <p className={styles['about-us-text']}>
                     ¡Bienvenidos a nuestro marketplace de videojuegos! Nos apasiona conectar a los jugadores con los mejores títulos, 
                     equipos y experiencias en todas las plataformas. Ya seas un jugador casual o un entusiasta dedicado, tenemos algo para ti.
